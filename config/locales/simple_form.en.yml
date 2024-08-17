@@ -1,0 +1,18 @@
+en:
+  simple_form:
+    placeholders:
+      quote:
+        name: Name of your quote
+        author: Name of the author
+        category: Category of the quote
+    labels:
+      quote:
+        name: Name
+        author: Author
+        category: Category
+
+  helpers:
+    submit:
+      quote:
+        create: Create quote
+        update: Update quote

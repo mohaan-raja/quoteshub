@@ -1,0 +1,21 @@
+<%= simple_form_for quote, html: { class: "quote form" } do |f| %>
+  <% if quote.errors.any? %>
+    <div class="error-message">
+      <%= quote.errors.full_messages.to_sentence.capitalize %>
+    </div>
+  <% end %>
+
+  <h1>Quote</h1>:
+  <%= f.input :name, input_html: { autofocus: true } %>
+  <br />
+
+  <h1>Author</h1>:
+  <%= f.input :author %>
+  <br />
+
+  <h1>Category</h1>:
+  <%= f.input :category %>
+  <br/ >
+
+  <%= f.submit class: "btn btn--secondary" %>
+<% end %>

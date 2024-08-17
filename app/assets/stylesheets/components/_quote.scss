@@ -1,0 +1,35 @@
+.quote {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-s);
+  
+    background-color: var(--color-white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-small);
+    margin-bottom: var(--space-m);
+    padding: var(--space-xs);
+  
+    &__actions {
+      display: flex;
+      flex: 0 0 auto;
+      align-self: flex-start;
+      gap: var(--space-xs);
+    }
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f3f1f1;
+}

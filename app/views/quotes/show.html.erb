@@ -1,0 +1,9 @@
+<main class="container">
+  <%= link_to sanitize("&larr; Back to quotes"), quotes_path %>
+  <div class="header">
+    <h1>
+      Saying: <%= @quote.name %>
+      Author: <%= @quote.author %>
+    </h1>
+  </div>
+</main>
