@@ -2,7 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: var(--space-s);
-    justify-content: space-between;
+    // justify-content: space-between;
+    float: right;
     margin-top: var(--space-m);
     margin-bottom: var(--space-l);
 }

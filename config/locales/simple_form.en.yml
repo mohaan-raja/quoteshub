@@ -5,14 +5,28 @@ en:
         name: Name of your quote
         author: Name of the author
         category: Category of the quote
+      user:
+        username: Enter your name
+        password: Enter your password
+        bio: Your bio
     labels:
       quote:
         name: Name
         author: Author
         category: Category
+      user:
+        username: Username
+        password: Password
+        bio: Bio
 
   helpers:
     submit:
       quote:
         create: Create quote
         update: Update quote
+      user:
+        create: Create user
+        update: Update user
+      auth:
+        create: Login
+        login: Login

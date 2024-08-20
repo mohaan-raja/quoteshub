@@ -1,9 +1,10 @@
 <main class="container">
+  <h1>Quotes</h1>
   <div class="header">
-    <h1>Quotes</h1>
     <%= link_to "New quote",
                 new_quote_path,
-                class: "btn btn--primary" %>
+                class: "btn btn--secondary" %>
+    <%= link_to "Logout", logout_path, class: "btn btn--primary" %>
   </div>
 
   <table>

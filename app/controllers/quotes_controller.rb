@@ -2,6 +2,7 @@ class QuotesController < ApplicationController
     before_action :set_quote, only: [:show, :edit, :update, :destroy]
 
     def index
+      puts @user
       @quotes = Quote.limit(10)
     end
   
